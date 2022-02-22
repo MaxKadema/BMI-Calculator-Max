@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5060A4E527C4BB5400E9081E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5060A4E427C4BB5400E9081E /* README.md */; };
 		50AB677C27C4B9D80074E18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB677B27C4B9D80074E18C /* AppDelegate.swift */; };
 		50AB677E27C4B9D80074E18C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB677D27C4B9D80074E18C /* SceneDelegate.swift */; };
 		50AB678027C4B9D80074E18C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB677F27C4B9D80074E18C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5060A4E427C4BB5400E9081E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		50AB677827C4B9D80074E18C /* BMI Calculator Max.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator Max.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AB677B27C4B9D80074E18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50AB677D27C4B9D80074E18C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		50AB676F27C4B9D80074E18C = {
 			isa = PBXGroup;
 			children = (
+				5060A4E427C4BB5400E9081E /* README.md */,
 				50AB677A27C4B9D80074E18C /* BMI Calculator Max */,
 				50AB677927C4B9D80074E18C /* Products */,
 			);
@@ -58,13 +61,37 @@
 			children = (
 				50AB677B27C4B9D80074E18C /* AppDelegate.swift */,
 				50AB677D27C4B9D80074E18C /* SceneDelegate.swift */,
-				50AB677F27C4B9D80074E18C /* ViewController.swift */,
-				50AB678127C4B9D80074E18C /* Main.storyboard */,
+				50AB679027C4BA160074E18C /* Models */,
+				50AB678F27C4B9FB0074E18C /* Views */,
+				50AB679127C4BA2C0074E18C /* Controllers */,
 				50AB678427C4B9DA0074E18C /* Assets.xcassets */,
 				50AB678627C4B9DA0074E18C /* LaunchScreen.storyboard */,
 				50AB678927C4B9DA0074E18C /* Info.plist */,
 			);
 			path = "BMI Calculator Max";
+			sourceTree = "<group>";
+		};
+		50AB678F27C4B9FB0074E18C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50AB678127C4B9D80074E18C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50AB679027C4BA160074E18C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50AB679127C4BA2C0074E18C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50AB677F27C4B9D80074E18C /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +154,7 @@
 			files = (
 				50AB678827C4B9DA0074E18C /* LaunchScreen.storyboard in Resources */,
 				50AB678527C4B9DA0074E18C /* Assets.xcassets in Resources */,
+				5060A4E527C4BB5400E9081E /* README.md in Resources */,
 				50AB678327C4B9D80074E18C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +323,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +352,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
