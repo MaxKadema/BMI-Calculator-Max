@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import AVFoundation
 class CalculateViewController: UIViewController {
 
     var calculatorBrain = CalculatorBrain()
@@ -32,6 +32,7 @@ class CalculateViewController: UIViewController {
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
+        
         let weight = weightSlider.value
         let height = hightSlider.value
         
@@ -49,5 +50,6 @@ class CalculateViewController: UIViewController {
         }
         
     }
+    
 }
 
